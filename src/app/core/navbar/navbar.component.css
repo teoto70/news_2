@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    border-bottom: 2px solid #222;
+    height: calc(var(--desktop-header-height) - 1px);
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.beta {
+    font-size: 15px;
+    color: gold;
+}
